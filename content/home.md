@@ -1,7 +1,7 @@
 ---
 title: Awesome Astute
 date: 2019-03-17T19:31:20.591Z
-cats:
+people:
   - description: 'Anna is the boss'
     name: Anna
   - description: Ryan is also the boss
