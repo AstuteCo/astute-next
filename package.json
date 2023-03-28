@@ -7,7 +7,8 @@
     "dev": "next",
     "build": "next build",
     "start": "next start",
-    "export": "npm run build && next export"
+    "export": "npm run build && next export",
+    "styles": "sass -w ./src/scss/main.scss ./public/css/theme.css"
   },
   "keywords": [],
   "author": "",
@@ -20,6 +21,7 @@
   "devDependencies": {
     "@babel/core": "^7.21.3",
     "@babel/preset-react": "^7.18.6",
-    "frontmatter-markdown-loader": "^3.7.0"
+    "frontmatter-markdown-loader": "^3.7.0",
+    "sass": "^1.59.2"
   }
 }
